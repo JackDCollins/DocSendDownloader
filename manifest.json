@@ -1,8 +1,8 @@
 {
-    "name": "DocSend Slide Deck Downloader",
-    "version": "1.7",
+    "name": "Volt Deck Downloader",
+    "version": "1.0",
     "description": "Download any DocSend slide deck as a PDF",
-    "permissions": ["declarativeContent", "activeTab", "webRequest", "webRequestBlocking", "*://*.docsend.com/", "*://*.cloudfront.net/"],
+    "permissions": ["declarativeContent", "activeTab", "webRequest", "webRequestBlocking", "*://*.docsend.com/"],
     "background": {
         "scripts": ["background.js"]
     },
